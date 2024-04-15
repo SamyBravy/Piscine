@@ -11,6 +11,8 @@ public:
 
     bool load(std::string name);
 
+    void resize(int newWitdh, int newHeight);
+
 private:
     int width, height;
     char channels;
@@ -18,6 +20,5 @@ private:
     int* buffer;
     std::string name;
 };
-
 
 #endif //GIT_EXAMPLE_IMAGE_VIEWER_BITMAPIMAGE_H

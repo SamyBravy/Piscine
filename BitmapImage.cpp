@@ -16,6 +16,15 @@ bool BitmapImage::load(std::string name) {
     return false;
 }
 
+void BitmapImage::resize(int newWitdh, int newHeight)
+{
+    width = newWitdh;
+    height = newHeight;
+    // pretend to resize image...
+    delete []buffer;
+    buffer = new int[width * height * channels];
+}
+
 BitmapImage::~BitmapImage() {
     delete[] buffer;
 }
