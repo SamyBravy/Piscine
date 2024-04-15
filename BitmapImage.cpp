@@ -18,6 +18,8 @@ bool BitmapImage::load(std::string name) {
 
 void BitmapImage::resize(int newWitdh, int newHeight)
 {
+    if (newHeight <= 0 or newWitdh <= 0)
+        return;
     width = newWitdh;
     height = newHeight;
     // pretend to resize image...
