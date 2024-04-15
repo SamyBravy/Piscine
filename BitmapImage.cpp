@@ -19,6 +19,7 @@ bool BitmapImage::load(std::string name) {
 bool BitmapImage::save(std::string name)
 {
     // pretend we saved the image...
+    // pretend we save PNG too...
     return true;
 }
 
