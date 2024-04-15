@@ -2,7 +2,7 @@
 
 #include "BitmapImage.h"
 
-static const std::string VERSION = "v1.0";
+static const std::string VERSION = "v1.1";
 
 int main() {
     std::cout << "Image viewer - " << VERSION << std::endl;
