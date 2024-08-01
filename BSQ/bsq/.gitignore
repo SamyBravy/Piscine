@@ -1,0 +1,5 @@
+map_*
+*.sh
+*.o
+rush-BSQ
+.vscode
