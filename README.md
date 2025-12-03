@@ -34,10 +34,7 @@ This repository contains the work done during the **C Piscine** at 42. It is an 
 Team projects executed during weekends.
 -   **Rush00**: Creating a pattern generator.
 -   **Rush01**: Solving a logical puzzle (Skyscraper/Sudoku variant).
-
-### 🏁 BSQ (Final Project)
-**Biggest Square**: An algorithmic challenge to find the largest possible square on a map avoiding obstacles.
--   **Skills**: File I/O, Parsing, Algorithm Optimization.
+-   **BSQ**: An algorithmic challenge to find the largest possible square on a map avoiding obstacles.
 
 ## 🛠️ Usage
 
@@ -47,3 +44,4 @@ Each directory contains the source code for the specific module. To compile a C 
 gcc -Wall -Wextra -Werror file.c -o program
 ./program
 ```
+
